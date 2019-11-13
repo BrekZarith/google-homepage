@@ -1,18 +1,19 @@
+
+
 body {
-    margin-top: 8px;
-    margin-right: 63px;
-    margin-left: 70px;
+    margin: 0px;
     text-align: center;
     font-family: sans-serif;
     
 }
 header {
-    
     font-size: 13px;
     width: 100%;
 }
 ul {
     text-align: right;
+    margin-right: 50px;
+    padding-left: 0px;
 }
 
 li {
@@ -41,7 +42,7 @@ li.home {
 }
 
 div.upblock {
-    height: 115px;
+    height: 85px;
 }
 
 div.google{
@@ -87,8 +88,12 @@ footer {
     height: 50px;
     margin-right: 0px;
     margin-left: 0px;
-}
-footer {
+    position: fixed;
+    bottom: 0;
     position: absolute;
     background-position: bottom;
+    text-align: left;
+}
+.footerdiv {
+    height:15px;
 }
