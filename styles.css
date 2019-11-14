@@ -13,7 +13,7 @@ header {
 ul {
     text-align: right;
     margin-right: 50px;
-    padding-left: 0px;
+    padding-left: 20px;
 }
 
 li {
@@ -55,7 +55,6 @@ input {
     width: 600px;
     height: 40px;
     font-size: 20px;
-    b
 }
 
 a {
@@ -88,7 +87,6 @@ footer {
     height: 50px;
     margin-right: 0px;
     margin-left: 0px;
-    position: fixed;
     bottom: 0;
     position: absolute;
     background-position: bottom;
@@ -97,3 +95,21 @@ footer {
 .footerdiv {
     height:15px;
 }
+
+.footer-right {
+    display: block;
+    float: right;
+    
+}
+
+.footer-left {
+    float: left;
+    display: block;
+
+}
+
+.footer-left li, .footer-right li, a {
+    width: auto;
+    font-size: 12px;
+}
+
